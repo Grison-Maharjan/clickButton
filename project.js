@@ -1,5 +1,6 @@
-var clicks = 0
+var count = 0
 function hello(){
-    clicks = clicks + 1
-    document.getElementById("clicks").innerHTML = clicks
+    count += 1
+    document.getElementById("count").innerHTML = count
 }
+
