@@ -1,11 +1,39 @@
-.container {
-    text-align: center;
+html{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#87ccd9, #2b6273);
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
-body {
+#count{
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    margin-top: 15%;
+    font-size: 100px;
+    color: #274552;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+    
+.click{
+    text-transform: capitalize;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    color:  #e5e7f4;
+    border: transparent;
+    background-color: #5d60b3;
+    font-size: 20px;
+    font-family: monospace;
+    opacity: 0.8;
+}
+.click:hover{
+    cursor: pointer;
+    opacity: 1;
 }
